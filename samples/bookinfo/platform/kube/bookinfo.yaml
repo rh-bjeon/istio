@@ -65,9 +65,8 @@ spec:
       version: v1
   template:
     metadata:
-      annotations:
-        sidecar.istio.io/inject: "true"
       labels:
+        sidecar.istio.io/inject: "true"
         app: details
         version: v1
     spec:
@@ -118,9 +117,8 @@ spec:
       version: v1
   template:
     metadata:
-      annotations:
-        sidecar.istio.io/inject: "true"
       labels:
+        sidecar.istio.io/inject: "true"
         app: ratings
         version: v1
     spec:
@@ -171,9 +169,8 @@ spec:
       version: v1
   template:
     metadata:
-      annotations:
-        sidecar.istio.io/inject: "true"
       labels:
+        sidecar.istio.io/inject: "true"
         app: reviews
         version: v1
     spec:
@@ -213,9 +210,8 @@ spec:
       version: v2
   template:
     metadata:
-      annotations:
-        sidecar.istio.io/inject: "true"
       labels:
+        sidecar.istio.io/inject: "true"
         app: reviews
         version: v2
     spec:
@@ -255,9 +251,8 @@ spec:
       version: v3
   template:
     metadata:
-      annotations:
-        sidecar.istio.io/inject: "true"
       labels:
+        sidecar.istio.io/inject: "true"
         app: reviews
         version: v3
     spec:
@@ -325,8 +320,8 @@ spec:
         prometheus.io/scrape: "true"
         prometheus.io/port: "9080"
         prometheus.io/path: "/metrics"
-        sidecar.istio.io/inject: "true"
       labels:
+        sidecar.istio.io/inject: "true"
         app: productpage
         version: v1
     spec:

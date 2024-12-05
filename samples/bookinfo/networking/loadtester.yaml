@@ -40,10 +40,10 @@ spec:
             - name: CONNECTIONS
               value: "5"
             - name: NUMCALLS
-              value: "10"
+              value: "3"
             - name: RATE
               value: "0"
             - name: SLEEP
               value: "5"
             - name: TRAVELS_AGENCY_SERVICE
-              value: "http://productpage.bookinfo:9080"
+              value: "http://istio-ingressgateway.istio-system.svc.cluster.local:9080/productpage"

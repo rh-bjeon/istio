@@ -46,4 +46,4 @@ spec:
             - name: SLEEP
               value: "5"
             - name: TRAVELS_AGENCY_SERVICE
-              value: "http://istio-ingressgateway.istio-system.svc.cluster.local:9080/productpage"
+              value: "http://istio-ingressgateway-istio-system.apps.ocp.komsco.co.kr/productpage"
